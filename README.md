@@ -22,11 +22,11 @@ $ npx testcafe -c 2 chrome:headless *.ts
  - Chrome 104.0.5112.102 / Windows 11
 
  App Performance Test
- ✅ Inventory Page Performance Test
- ✅ Sorting Products Performance Test
+ ✅ Inventory Page Performance Test<br>
+ ✅ Sorting Products Performance Test<br>
 
  Checkout Step One Page Test
- ✅ Check if Step One Page is shown
+ ✅ Check if Step One Page is shown<br>
  ✅ Check if Firstname is required
  ✅ Check if Lastname is required
  ✅ Check if Zip/Postal Code is required
