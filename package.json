@@ -1,0 +1,17 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "Payconiq Assignement",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohamed Khlifi",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^1.20.1"
+  },
+  "dependencies": {
+    "testcafe-reporter-junit": "^3.0.2"
+  }
+}
