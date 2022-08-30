@@ -12,8 +12,6 @@ createTestCafe('localhost', 1337, 1338)
             .src(['UI_Tests/tests/*.ts'])
             .browsers('chrome:headless')
             .concurrency(2)
-            .reporter('junit', 'reports/report.xml')
-            .screenshots({takeOnFails: true})
             .run({
                 pageRequestTimeout: 10000,
                 quarantineMode: { successThreshold: 1, attemptLimit: 3 }
