@@ -1,5 +1,6 @@
 const createTestCafe = require('testcafe');
 let testcafe = null;
+
 let runner = null;
 
 createTestCafe('localhost', 1337, 1338)
